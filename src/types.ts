@@ -26,3 +26,8 @@ export interface AccountDBPost {
     id: string,
     owner_id: string
 }
+
+export interface AccountBalance {
+    id: string,
+    ownerId: string
+}
